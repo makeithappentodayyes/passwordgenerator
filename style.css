@@ -1,18 +1,22 @@
 
-    body {
-        color:blue;
-    }
     
 h1 {
-    color:orange;
+    color:darkcyan;
 
 }
 
 h2 {
- color:pink;
+ color:darkcyan;
 
 }
 button  {
     color:red;
 
+}
+textarea {
+    color:blue
+}
+
+h2 {
+    border-bottom: 1px solid black;
 }

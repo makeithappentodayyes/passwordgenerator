@@ -9,13 +9,13 @@ h2 {
 
 button {
     color:red;
-
 }
 
-textarea {
-    color:lightgreen
-}
 
-header {
-    color:greenyellow
+
+
+
+.wrapper {
+    margin: 0 auto;
+    width: 1000px;
 }

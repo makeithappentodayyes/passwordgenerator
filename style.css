@@ -1,22 +1,21 @@
-
-    
 h1 {
-    color:darkcyan;
-
+    color:rgb(10, 246, 10)
+    
 }
 
 h2 {
- color:darkcyan;
-
+ color:black
 }
-button  {
+
+button {
     color:red;
 
 }
+
 textarea {
-    color:blue
+    color:lightgreen
 }
 
-h2 {
-    border-bottom: 1px solid black;
+header {
+    color:greenyellow
 }

@@ -1,15 +1,3 @@
-// var pattern_list="abcdefghijklmnopqrstuvwxyz123456789"
-// var example=''
- 
-// function generate_password(plength){
-// example=''
-// for (i=0;i<plength;i++)
-// example+=pattern_list.charAt(Math.floor(Math.random()*pattern_list.length))
-// return example
-// }
- 
-// function execute_To_Generate(enterlength){
-// document.password_generate.output.value=generate_password(enterlength)
 
 
 
@@ -29,5 +17,28 @@ if (userinput.lenght>8 && userinput.lenght<125)
 
     console.log("validlenght")
 }
-}
 
+
+function generate(){
+
+    
+    let complexity = document.getElementById("slider").value;
+    
+
+    let values = "ABCDEFHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*()_+"
+    }
+    
+    
+    let password = "";
+    
+    
+    for(var i = 0; i <= complexity; i++){
+        password = password + values.charAt(Math.floor(Math.random() * Math.floor(values.lenght - 1)));
+    
+    }
+    
+    
+    
+    
+    document.getElementById("display").value = password;
+    

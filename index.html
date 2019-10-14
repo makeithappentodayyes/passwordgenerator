@@ -1,45 +1,42 @@
-<!DOCTYPE html>
-<html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Password Generator</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<link rel="stylesheet" href="style.css"> 
-
-<script src=generator.js></script>
-
-</head>
-
-<body>
-    
-  <nav class="navbar navbar-dark bg-dark">
-<a class="navbar-brand" href="#"></a>
-<div class="wrapper">
-<div class="container">
-
-  <div class="row">
-    <div class="col-lg-8 col-sm-12">
-    <div class="content"></div>
-<header>
-    
-    <h1>Password Generator</h1>
-    </header>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css"> 
   
-  <h2>Generate a Password</h2>
-  <textarea  id="password" placeholder="Your Secure Password" aria-label="Generated Password"></textarea>
-  <button id="generate" onclick="generate_password()">Generate Password</button> 
-  <button id="copy">
-    Copy to Clipboard
-  </button>
-  </div>
-</container>
-</div>
+  <script src=generator.js></script>
   
+  </head>
   
-
-</body>
-<script src=generator.js></script>
-</html>
+  <body>
+      <div class="jumbotron"></div>
+          <h1>Password Generator</h2>
+      </div>
+      <div class ="section1 container"><ol>
+              <h4>Password Generation Rules</h4>
+              <li class="rules">Valid Lenght between 8 and 255</li>
+              <li class="rules">Uppercase Letters</li>
+              <li class="rules">Numbers</li>
+              <li class="rules">Special Characters    @ # $ % ^ &amp; * ( ) - _ ] [ ; : gt; , . ? </li>
+              <li class="rules">Lowercase Letters</li>
+          </ol>
+  
+          <form class="container">
+                  <h2 output id="output1"></h2>
+                  <br />
+              <input type="text" id="userentry" />
+              <button type="button" class="btn btn-success"id="copytoclipboard" onclick="copytoclipboard()">Copy to clipboard</button>
+       
+          </form>
+      </div>
+      <br />
+      <div class ="section2 container">
+          <h2 id="output2"></h2>
+          <button onclick="generatePassword()" class="btn btn-warning">Generate password</button>
+      </div>
+      <script src=""></script>
+  </body>
+  </html>

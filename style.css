@@ -1,21 +1,15 @@
-h1 {
-    color:rgb(10, 246, 10)
-    
-}
 
-h2 {
+
+
+h1{
  color:black
+
 }
 
-button {
-    color:red;
+h2{
+    color:blue;
 }
 
-
-
-
-
-.wrapper {
-    margin: 0 auto;
-    width: 1000px;
+background{
+    color:pink
 }

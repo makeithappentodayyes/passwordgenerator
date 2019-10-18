@@ -24,18 +24,13 @@
               <li class="rules">Lowercase Letters</li>
           </ol>
   
-          <form class="container">
-                  <h2 output id="output1"></h2>
-                  <br />
-              <input type="text" id="userentry" />
-              <button type="button" class="btn btn-success"id="copytoclipboard" onclick="copytoclipboard()">Copy to clipboard</button>
-       
-          </form>
-      </div>
+          <button onclick="generatePassword()" class="btn btn-warning">Generate password</button>
+          
+         </div>
       <br />
       <div class ="section2 container">
-          <h2 id="output2"></h2>
-          <button onclick="generatePassword()" class="btn btn-warning">Generate password</button>
+          <input type="text" id="output2">
+          <button type="button" class="btn btn-success"id="copytoclipboard" onclick="copytoclipboard()">Copy to clipboard</button> 
       </div>
       <script src=""></script>
   </body>
